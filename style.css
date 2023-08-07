@@ -70,7 +70,7 @@ fieldset {
     font-size: 16px; 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: none;
-    border: 0.1px solid rgba(226, 37, 125, 0.4);
+    border: 0.1px solid rgba(96, 198, 208, 0.8);
     border-radius: 10px;
     background-color: #292929;
 }
@@ -102,7 +102,7 @@ label {
 }
 
 input {
-    border: 0.5px solid #e2257d;
+    border: 0.5px solid #60C6D0;
     width: 200px;
     height: 30px;
     background-color: #2b2b2b;
@@ -122,14 +122,14 @@ input[type="submit"] {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 1rem;
     background-color: #242424;
-    color: #e2257d;
+    color: #60C6D0;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
     opacity: 100%;
 }
 
 input[type="submit"]:hover {
-    background-color: #e2257d;
+    background-color: #60C6D0;
     cursor: pointer;
     color: #242424;
 }
@@ -141,7 +141,7 @@ input[type="submit"]:hover {
 }
 
 p > a {
-    color: #e2257d;
+    color: #60C6D0;
     font-weight: bolder;
     text-decoration: none;
 }
