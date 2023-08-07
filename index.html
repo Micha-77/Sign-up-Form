@@ -4,8 +4,60 @@
     <meta charset="utf-8"/>
     <title>Sign up Form</title>
     <link rel="icon" href="writing.png">
+    <link rel="stylesheet" href="style.css">
   </head>
 <body>
+  <div class="content">
+    <div class="imageContent">
+      <img src="./Pics/Ruhig.JPG" alt="Girl in Japan" width="400px" height="100%">
+    </div>
 
+    <div class="formContent">
+      <form action="">
+        <p class="upperText">If you want to get into some real adventures of the most <strong><em>Experienced</em></strong> life you ever <strong><em>Dreamed of</em></strong> join us!
+          Sign up now to get started.
+        </p>
+        <p class="upperText"><strong>You know it's Adventure Time!</strong></p>
+        <fieldset>
+          <p class="letsText">Sign Up</p>
+          <ul>
+            <li>  
+              <div>        
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" min="5" max="10" pattern="[0-9a-zA-Z]{5,10}" title="Must be between 5 and 10 characters" placeholder="  Enter your First Name" required>
+              </div>
+              <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" min="5" max="10" pattern="[0-9a-zA-Z]{5,10}" title="Must be between 5 and 10 characters" placeholder="  Enter your Last Name" required>    
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" title="Must a valid email address" placeholder="  Enter your email" required>
+              </div>
+              <div>
+                <label for="phoneNum">Phone Number</label>
+                <input type="tel" name="phoneNum" id="phoneNum" placeholder="  Enter your number" required>
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="password">Password</label>
+                <input type="password" name="password id="password" pattern="[a-zA-Z0-9\.\*\&\%\$\#\@\!\?\,\<\>\~\:]{8,32}" title="Password must be 8 characters or more" placeholder="  Enter your password" required>
+              </div>
+              <div>
+                <label for="passwordCon">Confirm Password</label>
+                <input type="password" name="passwordCon" id="passwordCon" pattern="[a-zA-Z0-9\.\*\&\%\$\#\@\!\?\,\<\>\~\:]{8,32}" title="Password must be 8 characters or more" placeholder="  Confirm your password" required>    
+              </div>
+            </li>
+          </ul>
+        </fieldset>
+        <input type="submit" value="Create Account">
+        <p class="logIn">Already have an account? <a href="">Log in</a></p>
+      </form>
+    </div>
+  </div>
+  <a href="https://github.com/Micha-77"><img src="Github-logo.png" alt="github-logo"></a>
 </body>
 </html>

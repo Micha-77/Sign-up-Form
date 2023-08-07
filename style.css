@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: #242528; */
+    background: linear-gradient(90deg, #71b7e6, #9b59b6);
+}
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 3rem; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    width: 1200px;
+    background-color: #242424;
+}
+
+.formContent {
+    margin: 0 ;
+    padding:0 ;
+    width: 800px;
+    color: white;
+}
+
+.upperText {
+    font-size: 1.5rem;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+form {
+    padding: 20px;
+}
+
+
+.imageContent {
+    margin: 0 ;
+    padding:0 ;
+    width: auto;
+}
+
+img {
+    border-radius: 15px 0px 0 15px ;
+    opacity: 85%;
+    margin: 0;
+    padding: 0;
+}
+
+.letsText {
+    font-size: 1.75rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+fieldset {
+    gap: 5px;
+    font-size: 16px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    border: 0.1px solid rgba(226, 37, 125, 0.4);
+    border-radius: 10px;
+    background-color: #292929;
+}
+
+ul {
+    gap: 2px;
+    margin-right: 50px;
+}
+
+ul > li {
+    margin: 10px;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    display: flex;
+    gap: 100px;
+    font-weight: 700;
+}
+div > form > fieldset > ul > li > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    margin-top: 15px;
+}
+
+input {
+    border: 0.5px solid #e2257d;
+    width: 200px;
+    height: 30px;
+    background-color: #2b2b2b;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 50%;
+
+}
+
+input[type="submit"] {
+    height: 45px;
+    width: 170px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1rem;
+    background-color: #242424;
+    color: #e2257d;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #e2257d;
+    cursor: pointer;
+    color: #242424;
+}
+
+.logIn {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+p > a {
+    color: #e2257d;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+img[alt="github-logo"] {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1480px;
+    top: 750px;
+}
+
+a > img:hover {
+    transform:  scale(1.2) rotate(-360deg);
+    transition: transform 0.1s ease;
+}
